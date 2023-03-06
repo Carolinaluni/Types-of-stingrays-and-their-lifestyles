@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+body{
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://c4.wallpaperflare.com/wallpaper/695/1011/743/lioness-family-brown-lioness-and-cub-wallpaper-preview.jpg);
+	background-size: 1550px 955px;
+
+}
+h1{
+	color: #9A4C33;
+	margin-left: 30px;
+	font-size: 80px;
+    font-family: 'Judson';
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    color: #ac5639;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+h3{
+	color: #bf6040;
+	margin-left: 30px;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+p{
+	color: #f3ded8;
+	margin-left: 60px;
+	margin-right: 100px;
+	font-size: 20px;
+	font-family: 'Roboto Serif', serif;
+}
+ul{
+    color: #f3ded8;
+	margin-left: 60px;
+	margin-right: 100px;
+	font-size: 20px;
+	font-family: 'Roboto Serif', serif;
+}
+dl{
+	color: #000000;
+	margin-left: 30px;
+	font-size: 8px;
+}

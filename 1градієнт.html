@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Градієнти</title>
+  <link rel="stylesheet" type="text/css" href="1градієнт.css">
+	<style type="text/css">
+		div{
+			height: 200px;
+			width: 200px;
+			margin: 20px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+<div style="background: linear-gradient(to bottom, #b54157 0%, #df937c 100%);"></div>
+<div style="background: linear-gradient(to right, #fde7b0 0%, #fb2c55 100%);"></div>
+<div style="background: linear-gradient(to top, #f9f2c8 0%, #e090b7 100%);"></div>
+<div style="background: linear-gradient(to left, #8e7365 0%, #ecdbbf 100%);"></div>
+<div style="background: linear-gradient(to bottom left, #eae1d7 0%, #20aca7 100%);"></div>
+<div style="background: linear-gradient(to bottom right, #304e7f 0%, #e2e5e4 100%);"></div>
+<div style="background: linear-gradient(#E2D284, #0B9283, #E48072, #00464A);"></div>
+<div style="background: linear-gradient(to left, #E4DCCA 28px, #C1556B 77%, #3E7086);"></div>
+<div style="background: linear-gradient(to bottom left, #393331 50%, #7D6F5F 50%);"></div>
+<div style="background: linear-gradient(#AFC7B5, 10%, #0D3444);"></div>
+<div style="background: linear-gradient(#0D3444, #AFC7B5);"></div>
+<div style="background: linear-gradient(to left,
+       #DB5758 20%, #414344 30%, #414344 45%, #C75852 55%, #C75852 70%, #3E413F 80% );
+   background: linear-gradient(to left,
+       #DB5758 20%, #414344 30% 45%, #C75852 55% 70%, #3E413F 80% );"></div>
+<div style="background: linear-gradient(to left,
+      #284B86 25%, #D0D0C6 25%, #D0D0C6 50%, #4A562E 50%, #4A562E 75%, #F3E7E8 75% );
+   background: linear-gradient(to left,
+      #284B86 25%, #D0D0C6 25% 50%, #4A562E 50% 75%, #F3E7E8 75% );"></div>
+<div style="background: linear-gradient(to top, #B9AF71, 20%, #3B2C4E);"></div>
+<div style="background: linear-gradient(to top, #383E79, #CBA86A);"></div>
+<div style="background:
+      linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+"></div>
+<div style="background: radial-gradient(#81BC82, #585A5C);"></div>
+<div style="background: radial-gradient(#F2CD3A 10px, #4B88A1 30%, #F2E3CE 50%);"></div>
+<div style="background: radial-gradient(at 0% 30%, #FFCE40 10px, #F1E2CD 30%, #C4BAAD 50%);"></div>
+<div style="background: radial-gradient(ellipse closest-side,
+      #5A3A7C, #806FB3 10%, #BBABE3 50%, #5C276C);"></div>
+<div style="background: radial-gradient(ellipse farthest-corner at 90% 90%,
+      #9CCBD8, #FBC1B2 10%, #077490 50%, #E1A6C3);"></div>
+<div style="background: radial-gradient(circle closest-side at 25% 75%,
+      #FFF4AF, #EB72AF 10%, #4D3957 50%, #8068A3);"></div>
+<div style="background:
+      radial-gradient(circle at 50% 0,
+        #B8905D,
+        #F9DAB4 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        #86694B,
+        #C1AC96 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        #B8905D,
+        #F9DAB4 70.71%) beige;
+  border-radius: 50%;"></div>
+<div style="background: conic-gradient(#2A7785, #E2B2B6);"></div>
+<div style="background: conic-gradient(at 0% 30%, #4E1535 10%, #E5245C 30%, #5B6DDE 50%);"></div>
+<div style="background: conic-gradient(from 45deg, #F0F2F3, #F45B4E, #F0F2F3, #64BCC5, #F0F2F3, #1B9684);"></div>
+<div style="background: repeating-linear-gradient(-45deg, #FDFDA1, #FDFDA1 5px, #8C163B 5px, #8C163B 10px);"></div>
+<div style="background:
+      repeating-linear-gradient(190deg, rgba(204, 0, 0, 0.5) 40px,
+        rgba(204, 0, 204, 0.5) 80px, rgba(51, 51, 255, 0.5) 120px,
+        rgba(0, 102, 153, 0.5) 160px, rgba(0, 153, 51, 0.5) 200px,
+        rgba(0, 153, 51, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px,
+        rgba(255, 0, 0, 0.5) 300px),
+      repeating-linear-gradient(-190deg, rgba(204, 0, 0, 0.5) 30px,
+        rgba(204, 0, 204, 0.5) 60px, rgba(51, 51, 255, 0.5) 90px,
+        rgba(0, 102, 153, 0.5) 120px, rgba(0, 153, 51, 0.5) 150px,
+        rgba(0, 153, 51, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px,
+        rgba(204, 0, 0, 0.5) 230px),
+      repeating-linear-gradient(23deg, red 50px, orange 100px,
+        yellow 150px, green 200px, blue 250px,
+        indigo 300px, violet 350px, red 370px);"></div>
+<div style="background:
+      repeating-linear-gradient(90deg, transparent, transparent 50px,
+        rgba(255, 127, 0, 0.25) 50px, rgba(255, 127, 0, 0.25) 56px,
+        transparent 56px, transparent 63px,
+        rgba(255, 127, 0, 0.25) 63px, rgba(255, 127, 0, 0.25) 69px,
+        transparent 69px, transparent 116px,
+        rgba(255, 206, 0, 0.25) 116px, rgba(255, 206, 0, 0.25) 166px),
+      repeating-linear-gradient(0deg, transparent, transparent 50px,
+        rgba(255, 127, 0, 0.25) 50px, rgba(255, 127, 0, 0.25) 56px,
+        transparent 56px, transparent 63px,
+        rgba(255, 127, 0, 0.25) 63px, rgba(255, 127, 0, 0.25) 69px,
+        transparent 69px, transparent 116px,
+        rgba(255, 206, 0, 0.25) 116px, rgba(255, 206, 0, 0.25) 166px),
+      repeating-linear-gradient(-45deg, transparent, transparent 5px,
+        rgba(143, 77, 63, 0.25) 5px, rgba(143, 77, 63, 0.25) 10px),
+      repeating-linear-gradient(45deg, transparent, transparent 5px,
+        rgba(143, 77, 63, 0.25) 5px, rgba(143, 77, 63, 0.25) 10px);
+
+  background:
+      repeating-linear-gradient(90deg, transparent 0 50px,
+        rgba(255, 127, 0, 0.25) 50px 56px,
+        transparent 56px 63px,
+        rgba(255, 127, 0, 0.25) 63px 69px,
+        transparent 69px 116px,
+        rgba(255, 206, 0, 0.25) 116px 166px),
+      repeating-linear-gradient(0deg, transparent 0 50px,
+        rgba(255, 127, 0, 0.25) 50px 56px,
+        transparent 56px 63px,
+        rgba(255, 127, 0, 0.25) 63px 69px,
+        transparent 69px 116px,
+        rgba(255, 206, 0, 0.25) 116px 166px),
+      repeating-linear-gradient(-45deg, transparent 0 5px,
+        rgba(143, 77, 63, 0.25) 5px 10px),
+      repeating-linear-gradient(45deg, transparent 0 5px,
+        rgba(143, 77, 63, 0.25) 5px 10px);"></div>
+<div style="background: repeating-radial-gradient(#53233E, #53233E 5px, #DFC1A9 5px, #DFC1A9 10px);"></div>
+<div style="background:
+      repeating-radial-gradient(ellipse at 80% 50%,rgba(224, 139, 175,0.5),
+        rgba(224, 139, 175,0.5) 15px, rgba(253, 239, 191,0.5) 15px,
+        rgba(253, 239, 191,0.5) 30px) top left no-repeat,
+      repeating-radial-gradient(ellipse at 20% 50%,rgba(224, 139, 175,0.5),
+        rgba(224, 139, 175,0.5) 10px, rgba(253, 239, 191,0.5) 10px,
+        rgba(255,255,255,0.5) 20px) top left no-repeat #FDEFBF;
+  background-size: 200px 200px, 150px 150px;"></div>
+
+</body>
+</html>

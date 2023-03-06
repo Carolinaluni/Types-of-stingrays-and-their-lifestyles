@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&display=swap');
+body{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.reeflifesurvey.com/0/species_88_5705b3d52654b.w1300.h866.jpg);
+    background-size: 1550px 805px;
+}
+header{
+	height: none;
+  width: 20%;
+	background-color: none;
+  float: left;
+}
+h1{
+	font-family: 'Big Shoulders Display', cursive;
+  color: #e2fdff;
+  font-size: 100px;
+  margin-left: 54px;
+  margin-top: 5px;
+
+}
+h2{
+	font-family: 'Big Shoulders Display', cursive;
+  color: #e2fdff;
+  font-size: 30px;
+  margin-left: 300px;
+}
+
+footer{
+	width: 80%;
+	height: 590px;
+  float: left;
+  margin-top: 35px;
+}
+p{
+  font-family: ;
+  color: #e2fdff;
+  font-size: ;
+  margin-left: 300px;
+  margin-right: 20px;
+  margin-top: 35px;
+  float: lefts;
+}
+div{
+
+}

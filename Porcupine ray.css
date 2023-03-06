@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&display=swap');
+body{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://content.api.news/v3/images/bin/1723d5a28c3e40bd13df60f5feb0eade);
+    background-size: 1550px 755px;
+}
+header{
+	height: none;
+  width: 20%;
+	background-color: none;
+  float: left;
+}
+h1{
+	font-family: 'Big Shoulders Display', cursive;
+  color: #e2fdff;
+  font-size: 100px;
+  margin-left: 54px;
+  margin-top: 5px;
+
+}
+h2{
+	font-family: 'Big Shoulders Display', cursive;
+  color: #e2fdff;
+  font-size: 30px;
+  margin-left: 300px;
+}
+
+footer{
+	width: 80%;
+	height: 590px;
+  float: left;
+  margin-top: 35px;
+}
+p{
+  font-family: ;
+  color: #e2fdff;
+  font-size: ;
+  margin-left: 300px;
+  margin-right: 20px;
+  margin-top: 35px;
+  float: lefts;
+}
+div{
+
+}

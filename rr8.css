@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+body{
+	background-color: #f2f2f2;
+}
+p{
+	font-size: 50px;
+	color: #663300;
+	font-family: 'Playfair Display', serif;
+
+
+}
+ul{
+	font-size: 30px;
+	color: #4d2800;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+ol{
+	margin-left: 25px;
+	font-size: 30px;
+	color: maroon;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.m1 li{
+	list-style-type: '\2698';
+}
+dt{
+	font-size: 50px;
+	color: #663300;
+	font-family: 'Playfair Display', serif;
+}
+dd{
+	font-size: 30px;
+	color: #4d2800;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 30px;
+	margin-right: 400px;
+}
+.m2 li{
+	list-style-type: '\2618';
+}
